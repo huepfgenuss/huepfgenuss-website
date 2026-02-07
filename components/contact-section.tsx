@@ -22,8 +22,8 @@ export function ContactSection() {
                   <Phone className="h-6 w-6" />
                 </div>
                 <h3 className="font-semibold mb-2">Telefon</h3>
-                <a href="tel:+49123456789" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  +49 (0) 123 456789
+                <a href="tel:+491799375870" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  +49 179 9375870
                 </a>
               </CardContent>
             </Card>
@@ -34,8 +34,8 @@ export function ContactSection() {
                   <Mail className="h-6 w-6" />
                 </div>
                 <h3 className="font-semibold mb-2">E-Mail</h3>
-                <a href="mailto:info@huepfburg-paradies.de" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  info@huepfburg-paradies.de
+                <a href="mailto:huepfgenuss@outlook.de" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  huepfgenuss@outlook.de
                 </a>
               </CardContent>
             </Card>

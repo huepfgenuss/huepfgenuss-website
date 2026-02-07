@@ -20,42 +20,33 @@ export default function ImpressumPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Angaben gemäß § 5 TMG</h2>
             <p>
-              Hüpfburg Paradies
+              Hüpfgenuss
               <br />
-              Max Mustermann
+              Helmut Lempert
               <br />
-              Musterstraße 123
+              Stefas-Zweig-Straße 7
               <br />
-              12345 Musterstadt
+              31515 Wunstorf
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Kontakt</h2>
             <p>
-              Telefon: +49 (0) 123 456789
+              Telefon: 01799375870
               <br />
-              E-Mail: info@huepfburg-paradies.de
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">Umsatzsteuer-ID</h2>
-            <p>
-              Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
-              <br />
-              DE123456789
+              E-Mail: huepfgenuss@outlook.de
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
             <p>
-              Max Mustermann
+              Helmut Lempert
               <br />
-              Musterstraße 123
+              Stefas-Zweig-Straße 7
               <br />
-              12345 Musterstadt
+              31515 Wunstorf
             </p>
           </section>
 

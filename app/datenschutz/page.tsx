@@ -21,15 +21,13 @@ export default function DatenschutzPage() {
             <h2 className="text-2xl font-semibold mb-4">1. Verantwortlicher</h2>
             <p>Verantwortlich für die Datenverarbeitung auf dieser Website ist:</p>
             <p>
-              [Name / Firma]
+              Helmut Lempert
               <br />
-              [Adresse]
+              Stefas-Zweig-Straße 7
               <br />
-              [PLZ Ort]
+              31515 Wunstorf
               <br />
-              E-Mail: [E-Mail-Adresse]
-              <br />
-              Telefon (optional): [Telefonnummer]
+              E-Mail: huepfgenuss@outlook.de
             </p>
           </section>
 
@@ -156,7 +154,7 @@ export default function DatenschutzPage() {
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">8. Stand</h2>
-            <p>Stand: [TT.MM.JJJJ]</p>
+            <p>Stand: 07.02.2026</p>
           </section>
         </div>
       </div>
