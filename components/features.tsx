@@ -3,22 +3,16 @@ import { Truck, Shield, Clock, Heart } from "lucide-react"
 
 const features = [
   {
-    icon: Truck,
-    title: "Lieferung & Aufbau",
-    description: "Wir liefern und bauen Ihre Hüpfburg auf - Sie müssen sich um nichts kümmern!",
-    color: "text-primary",
+    icon: Clock,
+    title: "Flexible Mietzeiten",
+    description: "Von wenigen Stunden bis mehrere Tage - wir passen uns Ihren Bedürfnissen an.",
+    color: "text-accent",
   },
   {
     icon: Shield,
     title: "Sicher & Geprüft",
     description: "Alle Hüpfburgen sind TÜV-geprüft und entsprechen höchsten Sicherheitsstandards.",
     color: "text-secondary",
-  },
-  {
-    icon: Clock,
-    title: "Flexible Mietzeiten",
-    description: "Von wenigen Stunden bis mehrere Tage - wir passen uns Ihren Bedürfnissen an.",
-    color: "text-accent",
   },
   {
     icon: Heart,
@@ -33,7 +27,7 @@ export function Features() {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Warum Hüpfgernuss?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Warum Hüpfgenuss?</h2>
           <p className="text-lg text-muted-foreground text-balance max-w-2xl mx-auto">
             Wir machen Ihre Feier zu einem unvergesslichen Erlebnis
           </p>

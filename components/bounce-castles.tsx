@@ -5,35 +5,35 @@ import Link from "next/link"
 
 const castles = [
   {
-    name: "Einhorn Traumland",
+    name: "Einhorn-Hüpfburg",
     description: "Magisch und märchenhaft - der Traum jedes Einhorn-Fans wird wahr!",
     size: "5,5x5m",
     age: "3-10 Jahre",
     image: "/images/unicorn.png",
   },
   {
-    name: "Dschungel Abenteuer",
+    name: "Dschungel-Hüpfburg",
     description: "Wilde Tiere und tropische Pflanzen machen diese Hüpfburg zum Highlight jeder Party.",
     size: "5,5x5,5m",
     age: "4-12 Jahre",
     image: "/images/jungle.png",
   },
   {
-    name: "Fußball Stadion",
+    name: "Fußball-Hüpfburg",
     description: "Olé! Für kleine Kicker und Fußballfans - großer Spaß garantiert!",
     size: "4,5x4m",
     age: "5-14 Jahre",
     image: "/images/soccer.png",
   },
   {
-    name: "Prinzessinnen Schloss",
+    name: "Prinzessinnen-Hüpfburg",
     description: "Perfekt für kleine Prinzessinnen und Prinzen. Bunte Farben und viel Platz zum Hüpfen!",
     size: "5,8x4,5m",
     age: "3-10 Jahre",
     image: "/images/princess.png",
   },
   {
-    name: "Dino Abenteuer",
+    name: "Dino-Hüpfburg",
     description: "Roar! Für kleine Dino-Fans - mit Dinosaurier-Motiven und viel Hüpffläche.",
     size: "5x4,1m",
     age: "3-10 Jahre",
@@ -41,8 +41,8 @@ const castles = [
   },
 ]
 
-const WEEKDAY_PRICE = "ab 79€"
-const WEEKEND_PRICE = "ab 89€"
+const WEEKDAY_PRICE = "ab 99€"
+const WEEKEND_PRICE = "ab 139€"
 
 export function BounceCastles() {
   return (
@@ -51,7 +51,7 @@ export function BounceCastles() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Unsere Hüpfburgen</h2>
           <p className="text-lg text-muted-foreground text-balance max-w-2xl mx-auto mb-6">
-            Entdecken Sie unsere vielfältige Auswahl an bunten Hüpfburgen
+            Entdecken Sie unsere vielfältige Auswahl an erlebnisreichen Hüpfburgen
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <div className="inline-flex items-center gap-2 bg-primary/10 px-6 py-3 rounded-full">

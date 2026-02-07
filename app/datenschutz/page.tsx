@@ -53,7 +53,7 @@ export default function DatenschutzPage() {
               Beim Besuch der Website können insbesondere folgende Daten verarbeitet werden (sog. Server-/Access-Logs):
             </p>
             <ul>
-              <li>IP-Adresse (ggf. in gekürzter/anononymisierter Form, abhängig vom Provider-Setup)</li>
+              <li>IP-Adresse</li>
               <li>Datum und Uhrzeit der Anfrage</li>
               <li>Aufgerufene Seite/URL</li>
               <li>Referrer-URL (die zuvor besuchte Seite, sofern übertragen)</li>

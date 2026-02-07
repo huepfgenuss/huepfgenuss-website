@@ -24,8 +24,7 @@ export function Hero() {
             </h1>
 
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-balance leading-relaxed">
-              Unvergessliche Momente für Ihre Feier! Mieten Sie bunte Hüpfburgen für Kindergeburtstage, Firmenfeste und
-              Events aller Art.
+              Spaß & Genuss für jedes Event! Hüpfburgen, Popcorn, Zuckerwatte & Slush-Eis für unvergessliche Momente bei Groß & Klein.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
@@ -49,10 +48,10 @@ export function Hero() {
                   }}
                 >
                   <Image
-                    src="/images/unicorn.png"
+                    src="/images/hero.jpeg"
                     alt="Kinder spielen auf bunter Hüpfburg"
-                    width={600}
-                    height={600}
+                    width={700}
+                    height={400}
                     className="w-full h-full object-cover"
                   />
                 </div>
