@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Truck, Shield, Clock, Heart } from "lucide-react"
+import { Truck, Shield, Clock, Heart, ArrowLeftRight } from "lucide-react"
 
 const features = [
   {
@@ -9,16 +9,22 @@ const features = [
     color: "text-accent",
   },
   {
-    icon: Shield,
-    title: "Sicher & Geprüft",
-    description: "Alle Hüpfburgen sind TÜV-geprüft und entsprechen höchsten Sicherheitsstandards.",
-    color: "text-secondary",
+    icon: ArrowLeftRight,
+    title: "Flexible Übergabezeiten",
+    description: "Von früh morgens bis spät abends - alles individuell gemeinsam vereinbar.",
+    color: "text-chart-4",
   },
   {
     icon: Heart,
     title: "Rundum-Service",
     description: "Persönliche Beratung und freundlicher Service für Ihr perfektes Event.",
     color: "text-primary",
+  },
+  {
+    icon: Shield,
+    title: "Sicher & Geprüft",
+    description: "Alle Hüpfburgen sind TÜV-geprüft und entsprechen höchsten Sicherheitsstandards.",
+    color: "text-secondary",
   },
 ]
 
@@ -29,7 +35,7 @@ export function Features() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Warum Hüpfgenuss?</h2>
           <p className="text-lg text-muted-foreground text-balance max-w-2xl mx-auto">
-            Wir machen Ihre Feier zu einem unvergesslichen Erlebnis
+            Wir bringen Spaß, Freude und einzigartige Erlebnisse auf Ihre Feier. Strahlende Kinderaugen und unvergessliche Momente sind garantiert.
           </p>
         </div>
 

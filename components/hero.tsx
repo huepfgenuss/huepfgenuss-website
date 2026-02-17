@@ -10,10 +10,6 @@ export function Hero() {
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
           {/* Left side - Content */}
           <div className="text-center md:text-left">
-            <div className="mb-6 flex justify-center md:justify-start">
-              <Image src="/images/logo.png" alt="Hüpfburg Paradies Logo" width={120} height={120} className="object-contain" />
-            </div>
-
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-6 text-sm font-medium">
               <Sparkles className="h-4 w-4" />
               Ihr lokaler Hüpfburg-Verleih
@@ -24,7 +20,7 @@ export function Hero() {
             </h1>
 
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-balance leading-relaxed">
-              Spaß & Genuss für jedes Event! Hüpfburgen, Popcorn, Zuckerwatte & Slush-Eis für unvergessliche Momente bei Groß & Klein.
+              Spaß und Genuss für jedes Event! Hüpfburgen, Popcorn, Zuckerwatte und Slush-Eis für unvergessliche Momente bei Groß & Klein.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
@@ -32,30 +28,20 @@ export function Hero() {
                 <Link href="#kontakt">Jetzt anfragen</Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="text-lg bg-transparent">
-                <Link href="#angebot">Unsere Hüpfburgen</Link>
+                <Link href="#angebot">Unsere Services</Link>
               </Button>
             </div>
           </div>
 
           <div className="relative hidden md:block">
-            <div className="relative aspect-square rounded-3xl overflow-hidden">
-              {/* Wavy border effect using clip-path */}
-              <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-accent p-1">
-                <div
-                  className="w-full h-full bg-background rounded-3xl overflow-hidden"
-                  style={{
-                    clipPath: "url(#wavy-clip)",
-                  }}
-                >
-                  <Image
-                    src="/images/hero.jpeg"
+            <div className="relative aspect-square rounded-3xl overflow-hidden max-w-md mx-auto">
+                <Image
+                    src="/images/logo.png"
                     alt="Kinder spielen auf bunter Hüpfburg"
-                    width={700}
-                    height={400}
+                    width={500}
+                    height={500}
                     className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
+                  />  
 
               {/* Wavy border using SVG */}
               <div className="absolute inset-0 pointer-events-none">
